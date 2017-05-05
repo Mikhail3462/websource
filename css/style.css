@@ -66,6 +66,28 @@ img{
 	padding: 12px 20px 10px 19px;
 }
 
+.logo{	
+	margin-top: 24px;
+	display: inline-block;
+	float: left;
+}
+.ads{	
+	margin-top: 37px;
+	display: inline-block;
+	float: right;
+}
+.logo .ws{
+	font: bold 45px Georgia;
+	color: #191919;
+}
+.logo .awp{
+	font: bold 14px Georgia;
+	color: #555555;
+	margin-left: 6px;
+	letter-spacing: 1.8px;
+}
+
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){
 

@@ -47,7 +47,7 @@ img{
 }
 .header-block2 a div{
 	display: inline-block;
-	border-right: 1px solid #cacaca;
+	border-right: 1px solid #cacaca;	
 	padding: 12px 21px 10px 20px;
 	margin-right: -5px;
 	font: bold 12px Georgia;	
@@ -55,7 +55,11 @@ img{
 	color: #717171;
 	letter-spacing: .15px;
 }
-
+.header-block2 a:not(.active) div:hover{
+	background-color: #f0f0f0;
+	border-left: 1px solid #cacaca;
+	padding-left: 19px;
+}
 .header-block2 a.active div{
 	background-color: #f0f0f0;
 	padding: 10px;

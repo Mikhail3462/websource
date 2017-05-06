@@ -9,7 +9,7 @@ body{
 	background: #e1e6e9;
 }
 
-header{
+header{	
 	margin-top: 33px;
 }
 header a{
@@ -66,12 +66,15 @@ img{
 	padding: 12px 20px 10px 19px;
 }
 
-.logo{	
+
+.logo{
+	//position: relative;
 	margin-top: 24px;
 	display: inline-block;
 	float: left;
 }
 .ads{	
+	//position: relative;
 	margin-top: 37px;
 	display: inline-block;
 	float: right;
@@ -87,6 +90,30 @@ img{
 	letter-spacing: 1.8px;
 }
 
+main{
+	clear: both;
+	height: auto;
+	border: 1px solid black;	
+	margin-top: 110px;
+	overflow: hidden;	
+}
+.content{
+	display: inline-block;
+	float: left;
+}
+.sidebar{
+	display: inline-block;
+	float: right;
+}
+
+
+.clear-fix::after{
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){

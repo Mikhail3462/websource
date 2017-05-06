@@ -66,15 +66,15 @@ img{
 	padding: 12px 20px 10px 19px;
 }
 
-
-.logo{
-	//position: relative;
+.logoblock{
+	overflow: hidden;
+}
+.logo{	
 	margin-top: 24px;
 	display: inline-block;
 	float: left;
 }
-.ads{	
-	//position: relative;
+.ads{
 	margin-top: 37px;
 	display: inline-block;
 	float: right;
@@ -93,8 +93,9 @@ img{
 main{
 	clear: both;
 	height: auto;
-	border: 1px solid black;	
-	margin-top: 110px;
+	//border: 1px solid grey;	
+	margin-top: 28px;
+	padding-bottom: 30px;
 	overflow: hidden;	
 }
 .content{
@@ -105,14 +106,36 @@ main{
 	display: inline-block;
 	float: right;
 }
-
-
-.clear-fix::after{
-	content: '';
-	display: block;
-	clear: both;
-	height: 0;
-	visibility: hidden;
+.sidebar .search{
+	width: 286px;	
+	margin-top: 9px;	
+}
+.sidebar input[type="search"]{
+	border: 1px solid #c5c5c5;
+	display: inline-block;
+	text-transform: uppercase;
+	font: bold 11px Georgia;
+	color: #8d8d8d;	
+	outline: none; /* Убираем свечение в Chrome и Safari */
+	-webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+	width: 190px; /* Ширина поля */
+	height: 36px;
+	padding-left: 14px;
+	vertical-align: middle;
+	clear: both;	
+	-webkit-appearance: none; /* Выравнивание по середине */	
+}
+.sidebar input[type="submit"]{
+	display: inline-block;
+	text-transform: uppercase;
+	font: bold 13px Georgia;
+	color: #e4e4e4;
+	width: 96px; /* Ширина кнопки */
+	height: 36px; /* Высота кнопки */
+	border: none; /* Убираем рамку */	
+	float: right;	
+	background: url(../img/bg-header1.png) repeat-x #000;
+	cursor: pointer;
 }
 
 /* Large Devices, Wide Screens */

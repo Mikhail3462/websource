@@ -88,7 +88,7 @@ img{
 	src: url(../fonts/ChaparralPro-Bold.otf);
 }
 .logo .ws{
-	font: bold 47px ChaparralPro;
+	font: 47px ChaparralPro;
 	color: #191919;
 	letter-spacing: -1.8px;
 	padding-left: 2px;
@@ -115,18 +115,18 @@ main{
 }
 
 .bigPictLabel{
-	margin-top: 0px;
+	
 	height: 35px;
 	width: 220px;
 	background: url(../img/bg-header1.png) repeat-x #000;
 	color: white;
-	font-size: 22px;
+	font: normal 20px Georgia;
 	padding: 8px 0px 0px 14px;
 }
 .bigPictLabel::after {
 	content: ''; 
-	position: absolute; /* Абсолютное позиционирование */
-	margin: 35px 0px 0px -219px;
+	position: absolute;
+	margin: 35px 0px 0px -216px;
 	border: 5px solid transparent;	
 	border-top: 5px solid black;
 	border-right: 5px solid black;

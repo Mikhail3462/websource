@@ -72,7 +72,7 @@ img{
 	overflow: hidden;
 }
 .logo{	
-	margin-top: 24px;
+	margin-top: 25px;
 	display: inline-block;
 	float: left;
 }
@@ -82,14 +82,15 @@ img{
 	float: right;
 }
 .logo .ws{
-	font: bold 45px Georgia;
+	font: bold 47px 'Chaparal Pro';
 	color: #191919;
 }
 .logo .awp{
-	font: bold 14px Georgia;
+	margin-top: -2px;
+	font: bold 13px Georgia;
 	color: #555555;
-	margin-left: 6px;
-	letter-spacing: 1.8px;
+	margin-left: 6px;	
+	letter-spacing: 1px;
 }
 
 main{

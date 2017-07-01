@@ -131,7 +131,7 @@ main{
 	border-top: 5px solid black;
 	border-right: 5px solid black;
 }
-.content img{
+.content img.bigPict{
 	position: relative;
 	margin: -29px 0px 0 10px;
 	padding: 0px;
@@ -175,6 +175,34 @@ main{
 	float: right;	
 	background: url(../img/bg-header1.png) repeat-x #000;
 	cursor: pointer;
+}
+.socials li{
+	margin-top: 25px;
+	list-style-type: none;
+	display: inline-block;
+	
+}
+.socials li.rss{
+	width: 121px;	
+}
+.socials li.twitter{
+	width: 109px;
+}
+.socials li img{
+	margin-top: 5px;
+	float: left;	
+}
+.socials li{	
+	margin-right: 25px;
+}
+.socials li span{
+	margin-left: 11px;
+}
+.socials li span.socialNumb{
+	font: bold 22px Georgia;	
+}
+.socials li span.socialText{
+	font: normal 14px Georgia;
 }
 
 /* Large Devices, Wide Screens */

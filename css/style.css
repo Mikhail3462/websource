@@ -126,7 +126,7 @@ main{
 .bigPictLabel::after {
 	content: ''; 
 	position: absolute;
-	margin: 35px 0px 0px -216px;
+	margin: 35px 0px 0px -218px;
 	border: 5px solid transparent;	
 	border-top: 5px solid black;
 	border-right: 5px solid black;
@@ -190,7 +190,7 @@ main{
 	width: 121px;	
 }
 .socials li.twitter{
-	width: 109px;
+	width: 111px;
 }
 .socials li img{
 	margin-top: 5px;

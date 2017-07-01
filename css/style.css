@@ -194,7 +194,8 @@ main{
 }
 .socials li img{
 	margin-top: 5px;
-	float: left;	
+	float: left;
+	cursor: pointer;		
 }
 .socials li{	
 	margin-right: 25px;

@@ -180,11 +180,11 @@ main{
 	background: url(../img/bg-header1.png) repeat-x #000;
 	cursor: pointer;
 }
+
 .socials li{
 	margin-top: 25px;
 	list-style-type: none;
-	display: inline-block;
-	
+	display: inline-block;	
 }
 .socials li.rss{
 	width: 121px;	
@@ -210,6 +210,120 @@ main{
 	font: normal 14px Georgia;
 }
 
+/* Базовый контейнер табов */
+.tabs {
+	min-width: 90px;
+	max-width: 285px;
+	padding: 0px;
+	margin-top: 29px;
+}
+/* Стили секций с содержанием */
+.tabs>section {
+	display: none;
+	padding: 15px;
+	background: #fff;
+	border: 1px solid #b9b9b9;
+}
+.tabs>section>p {
+	margin: 0 0 5px;
+	line-height: 1.5;
+	color: #383838;
+	/* прикрутим анимацию */
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+/* Описываем анимацию свойства opacity */
+ 
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+/* Прячем чекбоксы */
+.tabs>input {
+	display: none;
+	position: absolute;
+}
+/* Стили переключателей вкладок (табов) */
+.tabs>label {
+	display: inline-block;
+	margin: 0 -5px -1px 0px;
+	padding: 9px 15px;
+	
+	text-align: center;
+	color: #aaa;
+	border: 0px solid #b9b9b9;
+	border-width: 1px 1px 1px 1px;
+	background: url(../img/bg-header1.png) repeat-x #000;
+	border-radius: 3px 3px 0 0;
+	text-transform: uppercase;
+	font: bold 12px Georgia;
+}
+
+
+/* Изменения стиля переключателей вкладок при наведении */
+ 
+.tabs>label:hover {
+	color: #888;
+	cursor: pointer;
+}
+/* Стили для активной вкладки */
+.tabs>input:checked+label {
+	color: #555;
+	border-top: 1px solid #b9b9b9;
+	border-bottom: 1px solid #fff;
+	background: #fff;
+}
+/* Активация секций с помощью псевдокласса :checked */
+#tab1:checked~#content-tab1, #tab2:checked~#content-tab2, #tab3:checked~#content-tab3, #tab4:checked~#content-tab4 {
+	display: block;
+}
+.tabs section h4{
+	color: #333;
+	margin-left: 0px;
+	text-decoration: underline;
+	font: bold 12px Georgia;
+	letter-spacing: 0.35px;
+	margin: 2px 0 9px 0;
+	cursor: pointer;
+}
+.tabs section p{
+	font: normal 12px Arial;	
+}
+.tabs section p.imgText{
+	margin-left: 62px;
+	margin-top: 16px;	
+
+	line-height: 18px;
+	width: 185px;
+	letter-spacing: 0.35px;
+}
+.tabs section img{
+	float: left;	
+}
+section hr{
+	clear: both;
+	margin: 23px 0 17px 0;
+	width: 229px;
+}
+.tabs:after{
+	content: '';
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){
 

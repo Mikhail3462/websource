@@ -131,6 +131,10 @@ main{
 	border-top: 5px solid black;
 	border-right: 5px solid black;
 }
+.bigPictLabel span{
+	font: normal 22px Georgia;
+	letter-spacing: -0.9px;
+}
 .content img.bigPict{
 	position: relative;
 	margin: -29px 0px 0 10px;

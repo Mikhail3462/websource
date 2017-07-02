@@ -156,6 +156,9 @@ main{
 .pictGalery img:not([class="current"]){
 	opacity: 0.5;
 }
+.pictGalery img:not([class="current"]):hover{
+	opacity: 1;
+}
 
 .sidebar{
 	margin-top: 5px;
@@ -339,6 +342,35 @@ section hr{
 .tabs:after{
 	content: '';
 }
+
+/*categories & site pages*/
+.cat_sp{
+	margin: 22px 0 0 0px;
+}
+.cat_sp ul li{
+	list-style-type: none;
+}
+.cat_sp ul li.title{
+	display: inline-block;
+}
+.divTitle{
+	background: url(../img/bg-header1.png) repeat-x #000;
+	padding: 10px 43px 10px 10px;
+	margin: 0 8px 32px 0;
+}
+.divTitle:last-child{
+	margin-right: 0px;
+}
+
+.divTitle h4{
+	text-transform: uppercase;
+	font: bold 11px Georgia;
+	color: #fff;
+	letter-spacing: 0.55px;
+}
+/*categories & site pages*/
+
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){
 

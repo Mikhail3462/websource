@@ -153,6 +153,9 @@ main{
 	padding: 0 0 0 6px;
 	cursor: pointer;
 }
+.pictGalery img:not([class="current"]){
+	opacity: 0.5;
+}
 
 .sidebar{
 	margin-top: 5px;

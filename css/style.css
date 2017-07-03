@@ -398,6 +398,17 @@ section hr{
 }
 /*categories & site pages*/
 
+/*Ads*/
+.adsImg{
+	border: 1px solid #cccdcd;
+	margin-top: 30px;
+	padding: 12px 9px 7px 13px;
+	background: #fff;	
+}
+.adsImg img{
+	margin-right: 4px;
+}
+/*Ads*/
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){

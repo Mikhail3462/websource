@@ -354,10 +354,13 @@ section hr{
 .cat_sp ul li.title{
 	display: inline-block;
 }
+.catul{
+	padding-right: 9px;
+}
 .divTitle{
 	background: url(../img/bg-header1.png) repeat-x #000;
 	padding: 10px 43px 10px 10px;
-	margin: 0px 9px 31px 0;
+	margin: 0px 9px 22px 0;
 }
 .divTitle:after{
 	content: '';
@@ -375,6 +378,23 @@ section hr{
 	font: bold 11px Georgia;
 	color: #fff;
 	letter-spacing: 0.55px;
+}
+.cslinks a{
+	display: block;
+	text-decoration: none;
+	color: #555;
+	font: bold 13px Georgia;	
+	padding: 12px 0;
+	margin: -1px 0 0px 0px;
+	letter-spacing: -0.3px;
+}
+.cslinks a:hover{
+	background: #d6dadd;
+	padding-left: 10px;
+}
+.cslinks div{
+	padding: 7px 0; 
+	background: red;
 }
 /*categories & site pages*/
 

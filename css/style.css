@@ -359,6 +359,13 @@ section hr{
 	padding: 10px 43px 10px 10px;
 	margin: 0px 9px 31px 0;
 }
+.divTitle:after{
+	content: '';
+	position: absolute;
+	margin: 10px 0 0 11px;
+	border: 6px solid transparent;
+	border-top: 6px solid black;
+}
 .divTitle2{
 	padding-right: 50px;
 	margin-right: 0px;

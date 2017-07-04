@@ -426,6 +426,17 @@ section hr{
  background: #fff;
  padding: 12px;
 }
+.mvTitle{
+ color: #2b2b2b;
+ font: bold 13px Georgia;
+ display: block;
+ margin: 12px 0 -10px 0;
+ letter-spacing: -0.2px;
+}
+.MoVid img{
+ margin-right: 6px;
+ cursor: pointer;
+}
 /*Latest videos*/
 
 

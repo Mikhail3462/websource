@@ -255,7 +255,7 @@ main{
 	animation-name: fadeIn;
 }
 /* Описываем анимацию свойства opacity */
- 
+
 @-webkit-keyframes fadeIn {
 	from {
 		opacity: 0;
@@ -295,7 +295,7 @@ main{
 
 
 /* Изменения стиля переключателей вкладок при наведении */
- 
+
 .tabs>label:hover {
 	color: #888;
 	cursor: pointer;
@@ -409,6 +409,20 @@ section hr{
 	margin-right: 4px;
 }
 /*Ads*/
+
+
+/*Latest videos*/
+.lastVidTitle{
+ margin-top: 31px;
+ padding: 9px 0 9px 13px;
+ background: url(../img/bg-header1.png) repeat-x #000;
+ color: #fff;
+ text-transform: uppercase;
+ font: bold 12px Georgia;
+ letter-spacing: -0.2px;
+}
+/*Latest videos*/
+
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){

@@ -421,6 +421,11 @@ section hr{
  font: bold 12px Georgia;
  letter-spacing: -0.2px;
 }
+.vidBlock{
+ border: 1px solid #d9d9d9;
+ background: #fff;
+ padding: 12px;
+}
 /*Latest videos*/
 
 

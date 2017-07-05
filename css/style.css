@@ -463,7 +463,11 @@ section hr{
  padding-top: 20px;
  border: 1px solid #b9b9b9;
  background: #fff;
-
+}
+.liBlockImg{
+ margin: 10px 0 0 0;
+ border: 1px solid #b9b9b9;
+ background: #fff; 
 }
 /*Latest Articles*/
 

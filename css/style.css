@@ -447,9 +447,9 @@ section hr{
  content:'';
  position: absolute; 
  margin: 33px 0px 0 -156px;
- border: 8px solid transparent;
- border-top: 8px solid black;
- border-right: 8px solid black;
+ border: 6px solid transparent;
+ border-top: 6px solid black;
+ border-right: 6px solid black;
 }
 .laTitle span{
  background: url(../img/bg-header1.png) repeat-x #000;
@@ -458,7 +458,13 @@ section hr{
  color: #fff;
  letter-spacing: -0.4px;
 }
+.laBlock{
+ margin: -13px 0 0 10px;
+ padding-top: 20px;
+ border: 1px solid #b9b9b9;
+ background: #fff;
 
+}
 /*Latest Articles*/
 
 /* Large Devices, Wide Screens */

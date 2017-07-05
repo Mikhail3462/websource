@@ -439,6 +439,27 @@ section hr{
 }
 /*Latest videos*/
 
+/*Latest Articles*/
+.laTitle{
+ margin: 43px 0 0 0;
+}
+.laTitle:after{
+ content:'';
+ position: absolute; 
+ margin: 33px 0px 0 -156px;
+ border: 8px solid transparent;
+ border-top: 8px solid black;
+ border-right: 8px solid black;
+}
+.laTitle span{
+ background: url(../img/bg-header1.png) repeat-x #000;
+ padding: 10px 17px 9px 13px;
+ font: 21px Georgia;
+ color: #fff;
+ letter-spacing: -0.4px;
+}
+
+/*Latest Articles*/
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){

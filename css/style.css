@@ -464,10 +464,29 @@ section hr{
  border: 1px solid #b9b9b9;
  background: #fff;
 }
-.liBlockImg{
+.laBlock ul li{
+ list-style-type: none;
+}
+.liBlock{
+ width: 274px;
  margin: 20px 0 0 24px;
+ display: inline-block;
+}
+.liBlock ul li h4{
+ margin-top: 8px;
+ letter-spacing: .45px;
+ font: bold 16px Georgia;
+}
+.liBlock ul li h4:hover{
+ text-decoration: underline;
+ cursor: pointer;
+}
+.liBlockImg{ 
  border: 1px solid #b9b9b9;
  background: #fff; 
+}
+.imgClock{
+ margin-top: 7px;
 }
 /*Latest Articles*/
 

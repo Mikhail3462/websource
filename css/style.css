@@ -483,9 +483,15 @@ section hr{
 }
 .liBlock ul li span{ 
  display: block;  
- padding: 9px 0 12px 24px ;
+ padding: 9px 0 13px 24px ;
  font: bold 12px Georgia;
  letter-spacing: .4px;
+
+}
+.liBlock ul li p{
+ font: normal 12px Arial;
+ line-height: 19px;
+ margin-bottom: 24px;
 }
 .liBlockImg{ 
  border: 1px solid #b9b9b9;

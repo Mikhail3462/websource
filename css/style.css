@@ -481,12 +481,19 @@ section hr{
  text-decoration: underline;
  cursor: pointer;
 }
+.liBlock ul li span{ 
+ display: block;  
+ padding: 9px 0 12px 24px ;
+ font: bold 12px Georgia;
+ letter-spacing: .4px;
+}
 .liBlockImg{ 
  border: 1px solid #b9b9b9;
  background: #fff; 
 }
-.imgClock{
- margin-top: 7px;
+.imgClock{ 
+ float: left;
+ margin-top: 7px;  
 }
 /*Latest Articles*/
 
